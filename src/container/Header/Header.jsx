@@ -7,9 +7,6 @@ const Header = () => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
       <h1 className="text__name">Murat Zay<span className='yellow__text'>.</span> </h1>
-      <div className='header__img'>
-        <img src={person} alt="" />
-      </div>
 
       <div className='links__text'>
 
@@ -22,7 +19,14 @@ const Header = () => (
                 Contact
               </button>
     </div>
+
+    <div className='header__img'>
+        <img src={person} alt="" />
   </div>
+      <div className='header__content-2'>
+      <h1 className='location'>Pittsburgh, PA</h1>
+  </div>
+      </div>
 );
 
 export default Header;

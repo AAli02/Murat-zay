@@ -1,3 +1,8 @@
+#personal_logo {
+  width: 70px;
+  height: 70px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;

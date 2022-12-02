@@ -1,11 +1,12 @@
 import React from "react";
+import mlogo from '../../assets/mlogo.png';
 
 import "./Navbar.css";
 
 const Navbar = () => (
   <nav>
     <figure>
-      <img id="personal-logo" src="" alt="" />
+      <img id="personal_logo" src={mlogo} alt="" />
     </figure>
     <ul className="nav__link--list">
       <li className="nav__link">
