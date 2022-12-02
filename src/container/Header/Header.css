@@ -1,0 +1,22 @@
+.contact__btn {
+    background-color: #424242;
+    border: 2px solid rgb(255, 199, 45);
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    max-width: 180px;
+    padding: 12px 24px;
+    font-size: 20px;
+    transition: all 300ms ease;
+  }
+  
+  .contact__btn:hover {
+    background-color: transparent;
+    border: 3px solid #c0c4cc;
+  }
+  
+  .contact__btn:active {
+    transform: scale(0.95);
+  }
+
+ 
