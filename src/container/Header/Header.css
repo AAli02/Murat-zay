@@ -1,22 +1,79 @@
-.contact__btn {
-    background-color: #424242;
-    border: 2px solid rgb(255, 199, 45);
-    color: white;
-    font-weight: 700;
-    width: 100%;
-    max-width: 180px;
-    padding: 12px 24px;
-    font-size: 20px;
-    transition: all 300ms ease;
-  }
-  
-  .contact__btn:hover {
-    background-color: transparent;
-    border: 3px solid #c0c4cc;
-  }
-  
-  .contact__btn:active {
-    transform: scale(0.95);
+  /* ---------------- HEADER CONTENTS ---------------- */
+
+  .text__name {
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    color: #fff;
   }
 
- 
+  .yellow__text {
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    color: rgb(255, 199, 45);
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+/* ---------------- HEADER SECTION ---------------- */
+
+.gpt3__header {
+  display: flex;
+  flex-direction: row;
+}
+
+.gpt3__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 5rem;
+}
+
+/* ---------------- CONTACT BUTTON ---------------- */
+.contact__btn {
+  background-color: #424242;
+  border: 2px solid rgb(255, 199, 45);
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  max-width: 180px;
+  padding: 12px 24px;
+  font-size: 20px;
+  transition: all 300ms ease;
+}
+
+.contact__btn:hover {
+  background-color: transparent;
+  border: 3px solid #c0c4cc;
+}
+
+.contact__btn:active {
+  transform: scale(0.95);
+}
+/* ------------------- MEDIA ------------------ */
+
+  @media screen and (max-width: 650px) {
+    .contact__btn {
+      padding: 5px;
+      font-size: 18px;
+      max-width: 100px;
+      max-height: 36px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+
+
+}
