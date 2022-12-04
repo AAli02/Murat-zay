@@ -137,6 +137,10 @@ p:active {
 }
 
   @media screen and (max-width: 650px) {
+
+.yellow__text {
+  font-size: 20;
+}
   
 html, body {
   overflow-x: hidden;
