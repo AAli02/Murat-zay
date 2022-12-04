@@ -57,3 +57,14 @@ nav {
     left: 0;
     width: 100%;
   }
+
+
+
+/* ------------------ MEDIA ---------------- */
+  @media screen and (max-width: 490px) {
+
+    .nav__link:nth-child(2) {
+      display: none;
+    }
+
+  }
