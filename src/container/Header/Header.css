@@ -139,7 +139,7 @@ p:active {
   @media screen and (max-width: 650px) {
 
 .yellow__text {
-  font-size: 20;
+  font-size: 42px;
 }
   
 html, body {
