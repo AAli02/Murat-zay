@@ -28,7 +28,13 @@ body {
   background-color: rgb(42, 42, 42);
 }
 
+section {
+  transition: all 300ms ease;
+}
 
+#landing__page {
+  min-height: 100vh;
+}
 
 
 

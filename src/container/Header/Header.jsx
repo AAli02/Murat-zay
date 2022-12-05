@@ -4,6 +4,7 @@ import person from '../../assets/person.png';
 import './Header.css';
 
 const Header = () => (
+  <section id='landing__page'>
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
       <h1 className="text__name">Murat Zay<span className='yellow__text'>.</span> </h1>
@@ -27,6 +28,10 @@ const Header = () => (
       <h1 className='location'>Pittsburgh, PA</h1>
   </div>
       </div>
+  <div className='line__box'>
+  <span className='line'></span>
+  </div>
+    </section>
 );
 
 export default Header;
