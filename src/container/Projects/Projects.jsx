@@ -5,8 +5,8 @@ import './Projects.css'
 const Projects = () => {
   return (
     <section id='projects'>
-    <div>Projects</div>
-    <div className='line__box'>
+    <div></div>
+    <div className='line__container'>
         <span className='line'></span>
     </div>
     </section>

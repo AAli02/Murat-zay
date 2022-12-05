@@ -4,7 +4,7 @@ import './Prop.css';
 
 const Prop = () => (
   <div>
-    Properties
+    
   </div>
 );
 

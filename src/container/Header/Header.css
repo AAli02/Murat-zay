@@ -34,10 +34,14 @@ p:active {
 }
 
 
+/* ---------------- HEADER LINE ---------------- */
+
+
 /* ---------------- HEADER SECTION ---------------- */
 
+
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 10rem 5rem;
 }
 
 .gpt3__header {
