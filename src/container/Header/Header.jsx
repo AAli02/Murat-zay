@@ -28,9 +28,6 @@ const Header = () => (
       <h1 className='location'>Pittsburgh, PA</h1>
   </div>
       </div>
-  <div className='line__box'>
-  <span className='line'></span>
-  </div>
     </section>
 );
 
