@@ -7,7 +7,7 @@ const Header = () => (
   <section id='landing__page'>
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
-      <h1 className="text__name">Murat Zay<span className='yellow__text'>.</span> </h1>
+      <h1 className="text__name">Name Last<span className='yellow__text'>.</span> </h1>
 
       <div className='links__text'>
 
@@ -17,8 +17,8 @@ const Header = () => (
       </div>
 
       <button id="contact__submit" class="contact__btn">
-                Contact
-              </button>
+         Contact
+      </button>
     </div>
 
     <div className='header__img'>

@@ -10,20 +10,21 @@ const Navbar = () => (
     </figure>
     <ul className="nav__link--list">
       <li className="nav__link">
-        <a href="#properties"
+        <a 
+          href="#properties"
           className="nav__link--anchor link__hover-effect">
         Properties
         </a>
       </li>
       <li className="nav__link">
-        <a
-          href="#properties"
+        <a onclick="toggleModal()"
+        href="#properties"
           className="nav__link--anchor link__hover-effect">
         About
         </a>
       </li>
       <li className="nav__link">
-        <a
+        <a onclick="toggleModal()"
           href="#properties"
           className="nav__link--anchor link__hover-effect">
         Contact
