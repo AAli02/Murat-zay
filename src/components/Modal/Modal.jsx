@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 import './Modal.css'
 
 
+// ---------- MODAL JS START ----------
+
 const Modal = () => {
   let isModalOpen = false;
   let contrastToggle = false;
@@ -45,9 +47,11 @@ const Modal = () => {
     document.body.classList += " modal--open";
   }
 
+  // ---------- MODAL JS END ----------
+
   return (
     <div className='overlay'>
-      <button onClick={toggleModal} className='contact__btn'>
+      <button onClick={toggleModal} className='contact__btn2'>
         Contact
       </button>
 

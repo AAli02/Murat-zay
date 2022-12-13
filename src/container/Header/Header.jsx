@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react'
 import person from '../../assets/person.png';
 
 import './Header.css';

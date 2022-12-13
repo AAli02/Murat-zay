@@ -121,3 +121,6 @@
     transform: scale(0.95);
   }
   
+  .contact__btn2 {
+    visibility: hidden;
+  }
