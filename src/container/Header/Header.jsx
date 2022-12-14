@@ -53,7 +53,7 @@ return (
     <section id='landing__page'>
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
-        <h1 className="text__name">Name Last<span className='yellow__text'>.</span> </h1>
+        <h1 className="text__name">Murat Zay<span className='yellow__text'>.</span> </h1>
   
         <div className='links__text'>
   
