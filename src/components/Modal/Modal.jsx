@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 import './Modal.css'
 
 
-// ---------- MODAL JS START ----------
+// ---------- MODAL  JSSTART ----------
 
 const Modal = () => {
   let isModalOpen = false;
@@ -51,9 +53,6 @@ const Modal = () => {
 
   return (
     <div className='overlay'>
-      <button onClick={toggleModal} className='contact__btn2'>
-        Contact
-      </button>
 
       <div className='modal'>
         <div className='modal__laf modal__about'>
@@ -62,7 +61,7 @@ const Modal = () => {
           <p className='modal__para'>Im a 21 year old real estate agent Lorem ipsum dolor sit amet consectetur.</p>
         </div>
         <div className='modal__half modal__contact'>
-          <i className='fas fa-times modal__exit click' onClick="toggleModal()"></i>
+          <i className='fas fa-times modal__exit click' onClick={toggleModal}></i>
           <h3 className='modal__title modal__title--contact'>Lets have a chat!</h3>
           <form id='contact__form' onSubmit="contact(event)"></form>
           <div className='form__item'>
@@ -80,10 +79,10 @@ const Modal = () => {
           <button id='contact__submit' className='form__submit'>Send it</button>
           <form>
             <div className='modal__overlay modal__overlay--loading'>
-              <i className='fas fa-spinner'></i>
+              <FontAwesomeIcon icon='fas fa-spinner' />
             </div>
             <div className='modal__overlay modal__overlay--success'>
-              Thanks for the message! Looking forward to speaking to you soon.
+              Thanks for the message! Looking forward to speaking with you soon.
             </div>
           </form>
         </div>

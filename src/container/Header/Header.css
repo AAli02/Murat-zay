@@ -16,7 +16,7 @@
     color: rgb(255, 199, 45);
   }
 
-  p {
+.hover__p {
     color: #fff;
     font-weight: 400;
     font-size: 20px;
@@ -25,11 +25,11 @@
     margin-bottom: .5rem;
 }
 
-p:hover {
+.hover__p:hover {
   color: rgb(255, 199, 45);
 }
 
-p:active {
+.hover__p:active {
   transform: scale(0.95);
 }
 
