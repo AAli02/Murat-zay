@@ -55,7 +55,7 @@ const Modal = () => {
     <div className='overlay'>
 
       <div className='modal'>
-        <div className='modal__laf modal__about'>
+        <div className='modal__half modal__about'>
           <h3 className='modal__title modal_-title--about'> About me </h3>
           <h4 className='modal__sub-title modal__sub-title--about'>Real Estate Agent</h4>
           <p className='modal__para'>Im a 21 year old real estate agent Lorem ipsum dolor sit amet consectetur.</p>
