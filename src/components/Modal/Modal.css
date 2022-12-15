@@ -114,6 +114,7 @@ label {
 
 .modal__title {
   font-size: 26px;
+  margin-bottom: 20px;
 }
 
 
@@ -252,6 +253,6 @@ label {
   }
 
   .form__submit {
-    margin-top: 70px;
+    margin-top: 58px;
   }
 }
