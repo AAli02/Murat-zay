@@ -189,6 +189,37 @@ label {
   visibility: hidden;
 }
 
+
+/* ----------------- MODAL IMAGES ---------------- */
+
+.modal__imgs {
+  padding-top: 75px;
+  display: flex;
+}
+
+.modal__logo:hover .language__name{
+  transform: scale(1);
+}
+
+.modal__logo:hover {
+  filter: brightness(80%);
+  transform: scale(0.9);
+}
+
+.modal__logo {
+  padding: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  transition: all 300ms ease;
+}
+
+.modal__logo--img {
+  min-width: 56px;
+  width: 100%;
+}
+
 /* -------------- MEDIA -------------- */
 
 @media screen and (max-width: 1050px) {

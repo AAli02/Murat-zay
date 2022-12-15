@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import mlogo from '../../assets/mlogo.png';
 
 
 import './Modal.css'
@@ -58,8 +59,15 @@ const Modal = () => {
         <div className='modal__half modal__about'>
           <h3 className='modal__title modal_-title--about'> About me </h3>
           <h4 className='modal__sub-title modal__sub-title--about'>Real Estate Agent</h4>
-          <p className='modal__para'>Im a 21 year old real estate agent Lorem ipsum dolor sit amet consectetur.</p>
+          <p className='modal__para'>Im a 21 year old real estate agent Lorem ipsum dolor sit amet consectetur</p>
+          <div class="modal__imgs">
+              <figure class="modal__logo">
+                <img src={mlogo} className='modal__logo--img' alt="" />
+                <span class="language__name"></span>
+              </figure>
+            </div>
         </div>
+        
         <div className='modal__half modal__contact'>
           <i className='fas fa-times modal__exit click' onClick={toggleModal}></i>
           <h3 className='modal__title modal__title--contact'>Lets have a chat!</h3>
@@ -81,9 +89,9 @@ const Modal = () => {
             <div className='modal__overlay modal__overlay--loading'>
               <FontAwesomeIcon icon='fas fa-spinner' />
             </div>
-            <div className='modal__overlay modal__overlay--success'>
+            {/* <div className='modal__overlay modal__overlay--success'>
               Thanks for the message! Looking forward to speaking with you soon.
-            </div>
+            </div> */}
           </form>
         </div>
       </div>
