@@ -11,6 +11,7 @@ import './Modal.css'
 const Modal = () => {
   let isModalOpen = false;
   let contrastToggle = false;
+  // delete contrast toggle 
 
   // const [modal, setModal] = useState(false);
   // const toggleModal = () => {
@@ -40,6 +41,8 @@ const Modal = () => {
     //     );
     // });
   }
+  
+  // add email services ---> ask murat 
   
   function toggleModal() {
     if (isModalOpen) {
