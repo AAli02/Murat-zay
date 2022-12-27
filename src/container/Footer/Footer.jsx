@@ -20,7 +20,7 @@ const Footer = () => (
     <p className='link__hover-effect footer__social--link'>Social</p>    
     <p className='link__hover-effect footer__social--link'>Social</p>    
   </div>
-  <div class="footer__copyright">Copyright © 2021 Murat Zaynuleav</div>
+  <div class="footer__copyright">Copyright © 2021 Murat Zaynullaev</div>
 </div>
 </footer>
 );
