@@ -1,11 +1,11 @@
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// import { faSpinner,  } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { useState } from 'react';
 
-
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+// import { faSpinner,  } from '@fortawesome/free-solid-svg-icons'
+// download fortawesome for it to work
 // library.add(fab, faSpinner, )
 
 

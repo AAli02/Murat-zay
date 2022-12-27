@@ -58,7 +58,7 @@ return (
         <div className='links__text'>
   
         <p className='socials hover__p'>Instagram | Linkdin</p>
-        <p className='socials hover__p'>Resume | Social</p>
+        <p className='socials hover__p'>Resumee | Social</p>
   
         </div>
   
