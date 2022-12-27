@@ -1,6 +1,8 @@
 #personal_logo {
   width: 70px;
   height: 70px;
+  -webkit-filter: grayscale(1) invert(1);
+filter: grayscale(1) invert(1);
 }
 
 nav {
